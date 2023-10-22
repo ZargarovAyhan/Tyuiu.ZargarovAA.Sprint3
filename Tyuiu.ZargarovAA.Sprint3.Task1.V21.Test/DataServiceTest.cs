@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.ZargarovAA.Sprint3.Task1.V21.Lib;
+using Tyuiu.ZargarovAA.Sprint3.Task1.V21.Lub;
 
 namespace Tyuiu.ZargarovAA.Sprint3.Task1.V21.Test
 {
