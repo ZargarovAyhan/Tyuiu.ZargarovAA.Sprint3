@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.ZargarovAA.Sprint3.Task1.V21.Lub;
+using Tyuiu.ZargarovAA.Sprint3.Task1.V21.Lib;
 
 namespace Tyuiu.ZargarovAA.Sprint3.Task1.V21.Test
 {
@@ -11,6 +11,7 @@ namespace Tyuiu.ZargarovAA.Sprint3.Task1.V21.Test
         public void ValidGetMultiplySeries()
         {
             DataService ds = new DataService();
+
 
             int value = 1;
             int startValue = 1;
