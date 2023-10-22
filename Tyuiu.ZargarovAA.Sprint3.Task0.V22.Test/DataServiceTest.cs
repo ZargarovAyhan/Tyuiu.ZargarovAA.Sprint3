@@ -10,11 +10,19 @@ namespace Tyuiu.ZargarovAA.Sprint3.Task0.V22.Test
     {
         [TestMethod]
         public void ValidGetMultiplySeries()
+
         {
             DataService ds = new DataService();
             double a = 0.25;
+
+
+
             int start = 1;
+
             int stop = 8;
+
+
+
             Assert.AreEqual(55217.446, ds.GetMultiplySeries(a, start, stop));
         }
     }

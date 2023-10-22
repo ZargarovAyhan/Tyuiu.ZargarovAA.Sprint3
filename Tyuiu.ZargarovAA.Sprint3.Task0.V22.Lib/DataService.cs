@@ -14,9 +14,12 @@ namespace Tyuiu.ZargarovAA.Sprint3.Task0.V22.Lib
         {
             double res = 1;
             for (int i = startValue; i <= stopValue; i++)
+
             {
+
                 res *= (Math.Pow(value, i) + 4) * Math.Cos(value);
             }
+
             return Math.Round(res, 3);
         }
     }
